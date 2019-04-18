@@ -1,5 +1,7 @@
 node {
    def mvnHome
+   def gradleHome
+	
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
       git'https://github.com/rakeshkumargedam/StepCombinations.git'
@@ -7,6 +9,7 @@ node {
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
       mvnHome = tool 'M3'
+      gradleHome = tool 'gradle'	   
    }
    stage('Build') {
       // Run the maven build
@@ -17,10 +20,10 @@ node {
       }
    }
    stage('gradle build') {
-        if(isUnix()){
-		sh "'gradle clean build'"
+        if (isUnix()){
+		sh "'${gradleHome}/bin/gradle clean build'"
 		} else {
-		   bat(/'gradle clean build'/)
+		   bat(/"${gradleHome}\bin\gradle" clean build/)
 		   }
 		   }
 		   
