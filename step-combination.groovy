@@ -16,7 +16,14 @@ node {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
       }
    }
-   //stage('Results') {
+   stage('gradle build') {
+        if(isUnix()){
+		sh "'gradle clean build'"
+		} else {
+		   bat(/'gradle clean build'/)
+		   }
+		   }
+		   
      // junit '**/target/surefire-reports/TEST-*.xml'
      // archive 'target/*.jar'
   // }
