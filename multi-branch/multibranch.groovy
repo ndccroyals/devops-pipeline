@@ -46,8 +46,8 @@ gitRepoNames.each{
         }
 
 }
-listView("CT Multibranch Pipeline") {
-    description("CT Multibranch Pipeline")
+listView("NDCC Multibranch Pipeline") {
+    description("NDCC Multibranch Pipeline")
     jobs {
         regex('.+-multi-branch')
     }
