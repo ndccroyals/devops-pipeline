@@ -15,7 +15,7 @@ gitRepoNames.each{
 
             branchSources {
                 configure { node ->
-                    def sourceList = node / sources(class: 'jenkins.branch.MultiBranchProject\*')
+                    def sourceList = node / sources(class: 'jenkins.branch.MultiBranchProject\$BranchSourceList')
                     sourceList << 'data' {
                         'jenkins.branch.BranchSource' {
                             source(class: 'jenkins.plugins.git.GitSCMSource') {
