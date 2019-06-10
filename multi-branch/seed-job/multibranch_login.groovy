@@ -1,6 +1,6 @@
 branchRegex = '.*'
 def gitRepoNames= [
-'ndcc-service-registration'
+        'ndcc-service-registration'
 ]
 def repoRoot='https://github.com/ndccroyals/'
 gitRepoNames.each{
