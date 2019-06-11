@@ -5,7 +5,7 @@ def gitRepoNames= [
 def repoRoot='https://github.com/ndccroyals/'
 gitRepoNames.each{
     repo ->
-        multibranchPipelineJob(repo+'-multi-branch Login') {  //predefined method to create multibranch job
+        multibranchPipelineJob(repo+'-multi-branch') {  //predefined method to create multibranch job
             displayName repo+'-multi-branch'
             triggers {
                 periodic(15)
