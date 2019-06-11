@@ -46,8 +46,9 @@ gitRepoNames.each{
 }
 listView("NDCC Multibranch Login Pipeline") {
     description("NDCC Multibranch Login Pipeline")
-    jobs {
-        regex('.+-multi-branch login')    }
+jobs {
+        regex('.+-multi-branch')
+    }
     columns {
         status()
         weather()
