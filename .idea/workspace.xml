@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5d936d5-1f4e-46c3-adc1-5957f4cd1d6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/multi-branch/seed-job/multibranch_login.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multilogin/multilogin.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi-branch/multibranch.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/multi-branch/multibranch.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi-branch/seed-job/create-seed.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi-branch/seed-job/multibranch_login.groovy" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,19 +28,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/multi-branch/seed-job/multibranch_login.groovy">
+        <entry file="file://$PROJECT_DIR$/multilogin/multilogin.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi-branch/seed-job/create-seed.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="137">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -55,6 +47,7 @@
         <option value="$PROJECT_DIR$/multi-branch/seed-job/create-seed.groovy" />
         <option value="$PROJECT_DIR$/multi-branch/multibranch.groovy" />
         <option value="$PROJECT_DIR$/multi-branch/seed-job/multibranch_login.groovy" />
+        <option value="$PROJECT_DIR$/multilogin/multilogin.groovy" />
       </list>
     </option>
   </component>
@@ -94,8 +87,7 @@
             <path>
               <item name="devops-pipeline" type="b2602c69:ProjectViewProjectNode" />
               <item name="devops-pipeline" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-branch" type="462c0819:PsiDirectoryNode" />
-              <item name="seed-job" type="462c0819:PsiDirectoryNode" />
+              <item name="multilogin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,7 +128,7 @@
     <frame x="40" y="63" width="1400" height="781" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -150,7 +142,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3280116" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3280116" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -171,6 +163,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/multi-branch/seed-job/multibranch_login.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-branch/multilogin.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dsl-pipeleine/multilogin.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/multi-branch/multibranch.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
@@ -178,10 +183,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi-branch/seed-job/multibranch_login.groovy">
+    <entry file="file://$PROJECT_DIR$/multilogin/multilogin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        <state relative-caret-position="137">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>

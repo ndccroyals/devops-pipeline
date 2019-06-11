@@ -1,13 +1,14 @@
 branchRegex = '.*'
 def gitRepoNames= [
-        'ndcc-service-registration'
+        'ndcc-service-login-1'
 ]
 def repoRoot='https://github.com/ndccroyals/'
 gitRepoNames.each{
     repo ->
 
-        multibranchPipelineJob(repo+'-multi-branch') {  //predefined method to create multibranch job
-            displayName repo+'-multi-branch'
+        multibranchPipelineJob(repo+'-multi-login'
+        ) {  //predefined method to create multibranch job
+            displayName repo+'-multi-login'
 
             triggers {
                 periodic(15)
@@ -46,10 +47,10 @@ gitRepoNames.each{
         }
 
 }
-listView("NDCC Multibranch Pipeline") {
-    description("NDCC Multibranch Pipeline")
+listView("NDCC Multibranch Login Pipeline") {
+    description("NDCC Multibranch Login Pipeline")
     jobs {
-        regex('.+-multi-branch')
+        regex('.+-multi-login')
     }
     columns {
         status()
@@ -60,4 +61,3 @@ listView("NDCC Multibranch Pipeline") {
         lastDuration()
         buildButton()
     }
-}
