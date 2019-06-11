@@ -6,7 +6,7 @@ def repoRoot='https://github.com/ndccroyals/'
 gitRepoNames.each{
     repo ->
 
-        multibranchPipelineJob(repo+'-multi-branch') {  //predefined method to create multibranch job
+        multibranchPipelineJob(repo+'-multi-branch Login') {  //predefined method to create multibranch job
             displayName repo+'-multi-branch'
 
             triggers {
@@ -46,10 +46,10 @@ gitRepoNames.each{
         }
 
 }
-listView("NDCC Multibranch Pipeline") {
-    description("NDCC Multibranch Pipeline")
+listView("NDCC Multibranch Login Pipeline") {
+    description("NDCC Multibranch Login Pipeline")
     jobs {
-        regex('.+-multi-branch')
+        regex('.+-multi-branch login')
     }
     columns {
         status()
