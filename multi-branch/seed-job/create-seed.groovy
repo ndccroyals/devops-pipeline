@@ -21,7 +21,7 @@ job('Seed-Job') {
 
     steps {
         dsl {
-            external "multi-branch/**/*.groovy"
+            external "multi-branch/*.groovy"
             removeAction('DELETE')
             removeViewAction('DELETE')
             ignoreExisting(false)
