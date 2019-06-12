@@ -60,3 +60,4 @@ listView("NDCC Multibranch Service Pipeline") {
         lastDuration()
         buildButton()
     }
+}
