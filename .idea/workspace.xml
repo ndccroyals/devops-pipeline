@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5d936d5-1f4e-46c3-adc1-5957f4cd1d6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/multilogin/multilogin.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi-branch/seed-job/create-seed.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi-branch/seed-job/multibranch_login.groovy" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,17 +19,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multi-branch/multibranch.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
+            <state relative-caret-position="386">
               <caret line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multilogin/multilogin.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="17">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multi-branch-login-service/multibranch_ndcc_login.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -39,7 +46,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/multi-branch-login-service" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -48,6 +55,7 @@
         <option value="$PROJECT_DIR$/multi-branch/multibranch.groovy" />
         <option value="$PROJECT_DIR$/multi-branch/seed-job/multibranch_login.groovy" />
         <option value="$PROJECT_DIR$/multilogin/multilogin.groovy" />
+        <option value="$PROJECT_DIR$/multi-branch-login-service/multibranch_ndcc_login.groovy" />
       </list>
     </option>
   </component>
@@ -66,12 +74,13 @@
     <option name="width" value="1400" />
     <option name="height" value="781" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,7 +91,12 @@
             <path>
               <item name="devops-pipeline" type="b2602c69:ProjectViewProjectNode" />
               <item name="devops-pipeline" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-branch" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="devops-pipeline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="devops-pipeline" type="462c0819:PsiDirectoryNode" />
+              <item name="multi-branch-login-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="devops-pipeline" type="b2602c69:ProjectViewProjectNode" />
@@ -93,7 +107,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -126,9 +140,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="63" width="1400" height="781" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -142,7 +155,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3280116" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.467344" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -163,30 +176,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi-branch/seed-job/multibranch_login.groovy">
+    <entry file="file://$PROJECT_DIR$/multi-branch/seed-job/multibranch_login.groovy" />
+    <entry file="file://$PROJECT_DIR$/multi-branch/multilogin.groovy" />
+    <entry file="file://$PROJECT_DIR$/dsl-pipeleine/multilogin.groovy" />
+    <entry file="file://$PROJECT_DIR$/multilogin/multilogin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi-branch/multilogin.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dsl-pipeleine/multilogin.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/multi-branch/multibranch.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
+        <state relative-caret-position="386">
           <caret line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multilogin/multilogin.groovy">
+    <entry file="file://$PROJECT_DIR$/multi-branch-login-service/multibranch_ndcc_login.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="230">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
