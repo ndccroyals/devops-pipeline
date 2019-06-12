@@ -5,16 +5,8 @@ def gitRepoNames= [
 def repoRoot='https://github.com/ndccroyals/'
 gitRepoNames.each{
     repo ->
-
-<<<<<<< HEAD:multilogin/multilogin.groovy
-        multibranchPipelineJob(repo+'-multi-login'
-        ) {  //predefined method to create multibranch job
-            displayName repo+'-multi-login'
-=======
-        multibranchPipelineJob(repo+'-multi-branch Login') {  //predefined method to create multibranch job
+        multibranchPipelineJob(repo+'-multi-branch') {  //predefined method to create multibranch job
             displayName repo+'-multi-branch'
->>>>>>> 24ea2d92d385da1428d960897a4f22c6a3ee163a:multi-branch/seed-job/multibranch_login.groovy
-
             triggers {
                 periodic(15)
             }
@@ -54,12 +46,8 @@ gitRepoNames.each{
 }
 listView("NDCC Multibranch Login Pipeline") {
     description("NDCC Multibranch Login Pipeline")
-    jobs {
-<<<<<<< HEAD:multilogin/multilogin.groovy
-        regex('.+-multi-login')
-=======
-        regex('.+-multi-branch login')
->>>>>>> 24ea2d92d385da1428d960897a4f22c6a3ee163a:multi-branch/seed-job/multibranch_login.groovy
+jobs {
+        regex('.+-multi-branch')
     }
     columns {
         status()
@@ -70,7 +58,4 @@ listView("NDCC Multibranch Login Pipeline") {
         lastDuration()
         buildButton()
     }
-<<<<<<< HEAD:multilogin/multilogin.groovy
-=======
 }
->>>>>>> 24ea2d92d385da1428d960897a4f22c6a3ee163a:multi-branch/seed-job/multibranch_login.groovy
