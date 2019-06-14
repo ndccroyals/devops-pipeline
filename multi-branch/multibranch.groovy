@@ -39,8 +39,8 @@ gitRepoNames.each{
             }
             orphanedItemStrategy {
                 discardOldItems {
-                    daysToKeep(0)
-                    numToKeep(0)
+                   // daysToKeep(0)
+                    numToKeep(2)
                 }
             }
 
