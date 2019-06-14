@@ -1,4 +1,4 @@
-          branchRegex = '.*'
+branchRegex = '.*'
 def gitRepoNames= [
 'ndcc-service-registration' ,
 'ndccservice-login-pipeline'
@@ -37,16 +37,14 @@ gitRepoNames.each{
                     sourceList << owner("", reference: '../..', class: 'org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject')
                 }
             }
-
-        }
-                    orphanedItemStrategy {
+            orphanedItemStrategy {
                 discardOldItems {
                    // daysToKeep(0)
                     numToKeep(2)
                 }
             }
-    
-    
+
+        }
 
 }
 listView(" Multibranch Pipeline") {
@@ -64,5 +62,3 @@ listView(" Multibranch Pipeline") {
         buildButton()
     }
 }
-
-          
