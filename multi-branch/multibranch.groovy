@@ -1,6 +1,6 @@
 branchRegex = '.*'
 def gitRepoNames= [
-'ndcc-service-registration'
+'ndcc-service-registration' 'ndcc-servicelogin-pipelogin'
 ]
 def repoRoot='https://github.com/ndccroyals/'
 gitRepoNames.each{
@@ -10,7 +10,7 @@ gitRepoNames.each{
             displayName repo+'-multi-branch'
 
             triggers {
-                periodic(15)
+                periodic(1)
             }
 
             branchSources {
@@ -38,8 +38,8 @@ gitRepoNames.each{
             }
             orphanedItemStrategy {
                 discardOldItems {
-                    daysToKeep(-1)
-                    numToKeep(-1)
+                    daysToKeep(0)
+                    numToKeep(0)
                 }
             }
 
